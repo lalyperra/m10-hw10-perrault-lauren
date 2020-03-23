@@ -11,14 +11,24 @@ var Temp = () => {
     //number “32” immediately prints inside of the span with the ID "freezing-temp" using an arrow function
     document.getElementById('freezing-temp').innerHTML += 32;
     //"88" immediately prints inside of the span with the ID "water-temp" using an arrow function
-    document.getElementById('water-temp').innerHTML += 73;
+    document.getElementById('water-temp').innerHTML += 88;
 }; 
 
-//timeout 
+//timeout that shows the class when the Temp matches!
 
 setTimeout(function() {
+    if(Temp >212) {
     document.getElementById('boiling').classList.add('show');
     document.getElementById('boiling').classList.remove('hide');
+    }
+    else if (Temp <32) {
+    document.getElementById('frozen').classList.add('show');
+    document.getElementById('frozen').classList.remove('hide');
+    }
+    else {
+    document.getElementById('good-temp').classList.remove('hide');
+    document.getElementById('good-temp').classList.add('show');
+    }
 }, 3000);
 
 
