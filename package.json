@@ -1,0 +1,23 @@
+{
+  "name": "web-pack-hmwk10",
+  "version": "1.0.0",
+  "description": "learning all about webpack",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-cli": "^6.26.0",
+    "webpack": "^4.28.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "lauren",
+  "license": "MIT"
+}

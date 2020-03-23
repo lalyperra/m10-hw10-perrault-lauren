@@ -6,3 +6,29 @@
   opacity: 1;
   transition: opacity 1s;
 }
+
+/*font-families
+font-family: 'Jura', sans-serif;
+font-family: 'Ranchers', cursive;
+font-family: 'Rosarivo', serif;
+*/
+
+h1 {
+  font-family:'Ranchers', cursive;
+  size: 3em;
+  padding: 10px;
+}
+
+h2 {
+  font-family: 'Jura', sans-serif;
+  size: 2em;
+}
+
+p {
+  font-family:'Rosarivo', serif;
+  size: 1.25em;
+}
+
+section {
+  padding: 15px;
+}
