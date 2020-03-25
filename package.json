@@ -1,23 +1,27 @@
 {
-  "name": "web-pack-hmwk10",
+  "name": "m10-hw10-perrault-lauren",
   "version": "1.0.0",
-  "description": "learning all about webpack",
+  "description": "Resources: https://www.w3schools.com/jsref/prop_element_classlist.asp\r https://www.w3schools.com/js/js_arrow_function.asp",
   "main": "index.js",
-  "dependencies": {
-    "babel-preset-env": "^1.7.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
-    "babel-cli": "^6.26.0",
-    "webpack": "^4.28.4"
+  "directories": {
+    "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
   },
-  "keywords": [
-    "webpack"
-  ],
-  "author": "lauren",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalyperra/m10-hw10-perrault-lauren.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lalyperra/m10-hw10-perrault-lauren/issues"
+  },
+  "homepage": "https://github.com/lalyperra/m10-hw10-perrault-lauren#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
